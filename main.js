@@ -39,7 +39,7 @@ percent = floor(objects[i].confidence * 100);
 text(objects[i].label + " "+ percent +"%", objects[i].x,objects[i].y);
 nofill();
 stroke("#FF0000");
-rect(objects[i].x,objects[i].y,objects[i].width,objects[i],objects[i].height);
+rect(objects[i].x,objects[i].y,objects[i].width,objects[i].height);
 
     }
   }}
