@@ -25,7 +25,7 @@ function gotResult(error, results) {
     console.log(error);
   }
   console.log(results);
-Objects = results;
+objects = results;
 }
 function draw() {
   image(img, 0, 0, 640, 420);
